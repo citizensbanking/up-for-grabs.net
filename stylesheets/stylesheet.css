@@ -953,6 +953,10 @@ ul.popular-tags li {
     right: 0;
     top: 0;
   }
+
+  select {
+    max-width: 100%;
+  }
 }
 
 .radio-btn-row {
@@ -991,6 +995,22 @@ ul.popular-tags li {
 
 .filters-panel {
   margin-bottom: 20px;
+}
+
+.projects .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fork-count {
+    display: flex;
+    margin-top: 10px;
+    height: max-content;
+}
+
+.fork-count-svg {
+    align-self: center;
 }
 
 @media screen and (max-width : 670px) {
